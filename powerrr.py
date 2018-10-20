@@ -1,4 +1,5 @@
-import math
-a=int(input())
-b=int(input())
-print(math.pow(a,b))
+def pow():
+    a=int(input())
+    b=int(input())
+    print(a**b)
+pow()
